@@ -16,8 +16,10 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo{
+    flex: 20%;
     justify-self: center;
     align-self: center;
     width: 400px;
@@ -25,18 +27,24 @@
     cursor: pointer;
 }
 nav{
-    flex: 1;
+    flex: 60%;
     text-align: right;
+    height: 100px;
     
+}
+.navul1{
+    display: flex;
+
 }
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 30;
+    margin-right: 10px;
+
 }
 nav ul li a{
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: large;
     font-weight: bolder;
     color: orangered;
@@ -108,7 +116,6 @@ align-items: center;
 }
 
 div ul li{
-padding: 20px;
 margin: 20px;
 }
 .row1,.row2,.row3,.row4,.row5,.row6,.row7{
