@@ -1,226 +1,180 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive CV</title>
-    <link rel="stylesheet" href="./ResponsiveCV_files/style69.css">
-</head>
-<body>
-    <div class="container">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Vikram's Portfolio</title>
+  </head>
+  <body>
+    <div class="mainBox">
 
-        <div class="navbar">
-            <img class="logo" src="./ResponsiveCV_files/logo.png" alt="logo">
-            
-        <nav>
-            <ul id="navul1">
-                <li> <a href="#about">About</a></li>
-                <li> <a href="#education">Education</a></li>
-                <li><a href="#training">Experience</a></li>
-                <li><a href="#">Hire Me</a> </li>
-
-            </ul>
-        </nav>
-
-        <img class="micon" src="./ResponsiveCV_files/menu-button-of-three-horizontal-lines.png" alt="menu" onclick="togglemenu()">
+      <div class="navigation">
+        <div>
+            <img src="./images/Capture1.png" alt="">
         </div>
+        <div id="navigationList">
+                <span>Home</span>
+                <span>Academics</span>
+                <span>Experience</span>
+                <span>Hire Me!</span>
+        </div>
+      </div>
 
-        <div class="row">
+      <div class="frontHome">
+        <div class="homeLeft">
+          <div class="profilePicture">
+            <img src="./images/profilePicture.jpg" alt="profilePicture" />
+          </div>
+        </div>
+        <div class="homeRight">
+          <div class="nameIntro">
+            <h1>Vikram Singh Boran</h1>
+            <h3 style="color: white;">( Full Stack Developer )</h3>
+            <button id="CV">Download CV</button>
+          </div>
+          <div class="socialMedia">
+              <img src="" alt="LinkedIn">
+              <img src="" alt="Github">
+              <img src="" alt="HackerRank">
+              <img src="" alt="HackerEarth">
+          </div>
+        </div>
+      </div>
 
-            <div class="col1">
-                <h1>Vikram Singh Boran</h1>
-                <h2>Full Stack Software Developer</h2>
-                <h5>This is my official website to showcase my details.</h5>
-                <button class="cvbutton" type="button" name="Download CV">
-                        <a href="./ResponsiveCV_files/VikramRESUME.pdf">Download CV</a>
-                </button>
-            </div>
-            <div class="col2">
-                    <img src="./ResponsiveCV_files/dp.png" alt="My image" class="dp">
-                    <div class="colordiv"></div>
-            </div>
+      <div class="details">        
+        <div class="detailItem">
+          <h2>About</h2>
+          <p>
+            Computer Science Engineer with excellent problem-solving skills and
+            ability to perform well in a team. Passionate about technical
+            solutions to modern-day problems Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Voluptate incidunt molestias,
+            perferendis quaerat iure eligendi ducimus? Eaque quae fugit
+            reprehenderit quibusdam, ducimus rerum atque temporibus consequatur
+            corrupti, vitae eos iste quaerat, minima nemo delectus odio magnam
+            culpa repellat officia ut neque. Aliquam distinctio odio maxime
+            libero et facilis suscipit expedita!
+          </p>
+          <hr>
+        </div>        
 
-    </div>
-        <hr>
-    <div class="row2" id="about">
-
-        <h2> About </h2>
-        <p>
-            Computer Science Engineer with excellent problem-solving skills and ability to perform well in a team. Passionate about technical solutions to modern-day problems Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate incidunt molestias, perferendis quaerat iure eligendi ducimus? Eaque quae fugit reprehenderit quibusdam, ducimus rerum atque temporibus consequatur corrupti, vitae eos iste quaerat, minima nemo delectus odio magnam culpa repellat officia ut neque. Aliquam distinctio odio maxime libero et facilis suscipit expedita!
-        </p>
-
-
-    </div>
-
-    <hr>
-
-    <div class="row3" id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>DSA</li>
-            <li>HTML-CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>DBMS</li>
-            <li>Android App Development</li>
-
-        </ul>
-    </div>
-    <hr>
-    <div class="row4" id="education">
+        <div class="detailItem">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>React js</li>
+                <li>HTML-CSS</li>
+                <li>Data Structures</li>
+                <li>Familiar to: 
+                    <ul>
+                        <li>SQL</li>
+                        <li>DBMS</li>
+                        <li>Springboot</li>  
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+        </div>
+        
+        
+        
+        <div class="detailItem">
             <h2>Education</h2>
 
-            <h5>Graduation</h5>
-            <h4>Bachlor of Technology: Computer Science and Programming</h4>
-
-            <table>
-                <tbody><tr> 
-                   <td>  Amity University Rajasthan
-                 </td>
-                    <td> 2020</td>
-                    <td>6.61 CGPA</td>
-
-                 </tr>
-                 
-             </tbody></table>
-
-            <h5>High school</h5>
-            <table>
-               <tbody><tr> 
-                  <td>  Kendriya Vidyalaya No.1, AFS Adampur
-                </td>
-                   <td> 2014</td>
-                   <td>74.80%</td>
-
-                </tr>
-                
-            </tbody></table>
-
-            <h5>Senior School</h5>
-            <table>
-               <tbody><tr> 
-                  <td>  Kendriya Vidyalaya No.1, AFS Adampur
-                </td>
-                   <td> 2016</td>
-                   <td>10 CGPA</td>
-
-                </tr>
-                
-            </tbody></table>
-    </div>
-    <hr>
-    <div class="row5" id="training">
-        <h2>  Training / Internship </h2>
-    <ul>
-        <li>
-            <h3>Newton School</h3><h4>Full Stack Development </h4> 
-            <p>
-                Did 6 month full time training with newton School for full stack development worked on more than 5 projects.
-            </p>
-           
-        </li>
-        <hr>
-        <li>
-            <h3>DUCAT , Gurugram</h3><h4>Android Developement</h4> 
-            <p>
-               Learned Android Developement basics with projects:  </p>
-               <ul>
-                   <li>Blood Donation App</li>
-                   <li>All News App</li>
-               </ul>
-           
-          
+            <h3>Graduation : B.Tech. - Computer Science Engineering</h3>
+            <div class="eduEntry">
+                <span>Amity University Rajasthan</span>
+                <span>6.61 CGPA</span>
+            </div>
             
-        </li>
-        <hr>
-        <li>
-            <h3>Samyak Technical Institute</h3><h4></h4> 
-            <p>
-                Learned and applied the basic concepts of Java with projects </p>
-               <ul>
-                   <li>Any project that I did!</li>
-               
-               </ul>
-         
-          
+
+            <h3>Senior School</h3>
+            <div class="eduEntry">
+                <span>Kendriya Vidyalaya No.1 AFS Adampur</span>
+                <span>74.80%</span>
+            </div>
             
-        </li>
-        <hr>
+            <h3>High School</h3>
+            <div class="eduEntry">
+                <span>Kendriya Vidyalaya No.1 AFS Adampur</span>
+                <span>10 CGPA</span>
+            </div>
+            <hr>
+        </div>
         
+       
+        
+        <div class="detailItem">
+            <h2>Training/Internship</h2>
 
-    </ul>          
+            <h3>Full Stack Web-Development</h3>
+            <h4>Newton School : Nov 2021 - Present</h4>
+            <ul>
+                <li>Full Stack Web Development along with Problem Solving</li>
+                <li>Technical Stack learnt: HTML, CSS, JavaScript, React JS, Bootstrap, Java, Node JS, Express JS, Mongo DB</li>
+                <li>Participated in various Coding contest organized by the platform.</li>
+                <li>Worked on various projects like portfolio web</li>
+            </ul>
 
 
-    </div>
-    <hr>
+            <h3>Android Application Developement</h3>
+            <h4>DUCAT : June 2019 - July 2019</h4>
+            <ul>
+                <li>learned about fundamentals of Android developement</li>
+                <li>developed 2 display apps</li>
+            </ul>
 
-    <div class="row6">
-        <h1>Experience</h1>
-        <p>Earlier i have experiance in business development and now i am completely shifted to software development.</p>
+            <h3>Core Java Training</h3>
+            <h4>SAMYAK Technical Institute : June 2018 - July 2018</h4>
+            <ul>
+                <li>learned fundamentals of programming</li>
+                <li>concepts of OOPs in Java</li>
+                <li>practiced logical problems</li>
+            </ul>
 
-        <h3>Extramarks Education Ltd.</h3>
-      <table><tbody><tr> <td> <h5>Academic counsellor/Expert</h5> </td>
-                    <td>Oct 2020 - Dec 2020</td>
-
-    </tr>
-    </tbody></table>
-    
-</tbody></table>
-
-    </div>
-    <hr>
-
-    <div class="row7">
-        <h1>Accomplishments</h1>
-        <ul>
-            <li>Was captain of University Kabaddi Team.
-                <ul>
-                    <li>13 Gold Medals, 8 Silver Medals and 3 Bronze Medals</li>
-                    <li>won 26 Trophies in total for the University</li>
-                    <li>played West Zone Nationals Twice</li>
-                </ul>
-            </li>
-            <li>Participated in a
-                workshop on Cyber
-                Security &amp; Cloud
-                Computing.</li>
-            <li>Was a part of the
-                Compulsory Military
-                Training held at Amity
-                University, Rajasthan.
-                </li>
-            <li>Active member of Prayas
-                Corps and Umeed
-                Foundation.</li>
-            <li>Secured silver medal in KVS Regionals in Table
-                Tennis Under-14 (2010).
-                </li>    
-        </ul>
-
-    </div>
-    <hr>
-
+            <hr>
         </div>
 
-        <script>
-            var navul1 = document.getElementById ("navul1");
+        
 
-            navul1.style.maxHeight = "0px"
+        <div class="detailItem">
+            <h2>Experience</h2>
 
-            function togglemenu(){
-                if(navul1.style.maxHeight=="0px")
-                    {
-                        navul1.style.maxHeight = "130px";
-                    }
-                    else
-                    {
-                        navul1.style.maxHeight="0px";
-                    }
-            }
-        </script>
+            <h3>Business Developement Executive</h3>
+            <h4>Extramarks Education Pvt. Ltd. : Oct 2020 - Dec 2020</h4>
+            <ul>
+                <li>Business Model Understanding</li>
+                <li>Sales</li>
+                <li>Student Councelling</li>
+            </ul>
+            <hr>
+        </div>
+      
+        
+      
+        <div class="detailItem">
+            <h2>Accomplishments</h2>
+            <ul>
+                <li>Attended On The Go Web Application Security Meetup by OWASP Jaipur Chapter</li>
+                <li>Participated in a workshop on Cyber Security & Cloud Computing</li>
+                <li>Was captain of University Kabaddi Team
+                    <ul>
+                        <li>13 Gold Medals, 8 Silver Medals and 3 Bronze Medals</li>
+                        <li>won 26 Trophies in total for the University</li>
+                        <li>played West Zone Nationals Twice</li>
+                    </ul>
+                </li>
+                <li>Discipline Head at University</li>
+                <li>Was a part of the Compulsory Military Training held at Amity University, Rajasthan.</li>
+                <li>Volunteered in 8 Prayaas Corps NGO events</li>
+            </ul>
+        </div>
+      </div>
+    </div>
 
-
-
-
-</body></html>
+    <script src="app.js"></script>
+  </body>
+</html>
