@@ -16,6 +16,7 @@ body{
     align-items: center;
     min-height: 15vh;
     border: 1px solid black;
+    
 }
 
 #navigationList{
@@ -24,6 +25,10 @@ body{
     justify-content: space-around;
     font-size: large;
     list-style: none;
+}
+
+#navigationList a{
+    text-decoration: none;
 }
 
 .frontHome{
@@ -71,11 +76,20 @@ body{
     cursor: pointer;
 }
 
+#CV a{
+    text-decoration: none;
+    color: black;
+}
+
 #CV:hover{
     border: 2px solid white;
     color: white;
     background-color: black;
+}
 
+#CV a:hover{
+    text-decoration: none;
+    color: white    ;
 }
 
 .socialMedia{
